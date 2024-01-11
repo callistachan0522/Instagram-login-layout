@@ -1,6 +1,10 @@
-.formOuterContainer {
-    border-bottom: 10px;
+.fieldset {
+    display: flex;
+    flex-direction: column;
+}
+.Email {
+    margin: 24px 0px 0px;
 }
 .password {
-    margin: 70px;
+    margin: 24px 0px 0px;
 }
