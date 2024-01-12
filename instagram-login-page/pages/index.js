@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
 import Form from '@/components/Form'
+import Insta from '@/Image'
 
 export default function Home() {
   return (
@@ -17,8 +18,8 @@ export default function Home() {
 
       </header>
       <main className={"${styles.main"}>
-        <h1 className={styles.h1}>Instagram</h1>
-        <Form/>       
+        <Insta/>
+        <Form/>
         <Button />
       </main>
       

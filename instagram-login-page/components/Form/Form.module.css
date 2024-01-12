@@ -1,10 +1,16 @@
 .fieldset {
     display: flex;
     flex-direction: column;
+    padding: 200px 30px 30px 40px;
 }
 .Email {
     margin: 24px 0px 0px;
+    padding: 10px;
+    border-radius: 10px;
 }
 .password {
     margin: 24px 0px 0px;
+    padding: 10px;
+    border-radius: 10px;
 }
+

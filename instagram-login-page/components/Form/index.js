@@ -1,4 +1,5 @@
 import styles from './Form.module.css'
+
 export default function Form() {
     return (
         <>
@@ -6,15 +7,15 @@ export default function Form() {
                 <div className={styles.formContainer}>
                     <form className={styles.form}>
                         <fieldset className={styles.fieldset}>
-                            <legend>Please Log In</legend>
-                            <label>Email</label>
+                            <legend className={styles.legend}>Please Log In</legend>
                             <input
+                                placeholder="Email"
                                 id="email"
                                 className={styles.Email}
                                 type="email"
                             />
-                            <label>Password</label>
                             <input 
+                                placeholder="Password"
                                 id="password"
                                 className={styles.password}
                                 type="password"
