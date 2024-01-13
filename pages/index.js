@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import Form from '@/instagram-login-page/components/Form/index.js'
-import Footer from '@/instagram-login-page/components/Footer/index.js'
+import Form from '@/instagram-login-page/Components/Form/index.js'
+import Footer from '@/instagram-login-page/Components/Footer/index.js'
 
 
 export default function Home() {
