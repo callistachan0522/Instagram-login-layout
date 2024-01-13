@@ -6,7 +6,7 @@
     padding: 0;
     border: 1px solid rgb(174, 172, 172);
     width: 400px;
-    height: 500px;
+    height: 420px;
     
 }
 .formOuterContainer {
@@ -78,11 +78,10 @@
 }
 
 .legend{
-    background-size: 176px 264px;
     float: right;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: center;
     width: 174;
     height: 50px;
@@ -93,7 +92,7 @@
 .apps {
     margin-right: 60px;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     cursor: pointer;
 }
 
@@ -117,14 +116,6 @@
 }
 .facebooklogin:hover {
     text-decoration: underline;
-}
-.icon {
-    display: flex;
-    width: 18px;
-    height: 18px;
-    border-radius: 2px;
-    float: left;
-    
 }
 
 .forgotPassword {
