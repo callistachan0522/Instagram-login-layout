@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
-import Form from '@/components/Form'
+import Form from '@/Instagram-login-layout/instagram-login-page/components/Form'
 import Insta from '@/Image'
 
 export default function Home() {

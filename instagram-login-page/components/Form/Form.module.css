@@ -1,16 +1,173 @@
 .fieldset {
     display: flex;
     flex-direction: column;
-    padding: 200px 30px 30px 40px;
+    border: none;
+    margin-left: 200px;
+    padding: 0;
+    border: 1px solid rgb(174, 172, 172);
+    width: 400px;
+    height: 500px;
+    
+}
+.formOuterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 600px;
 }
 .Email {
-    margin: 24px 0px 0px;
-    padding: 10px;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 300px;
+    width: 300px;
+    height: 36px;
+    padding-block: 1px;
+    padding-inline: 2px;
+    border: none;
+    border: 1px solid rgb(150, 148, 148);
+    border-radius: 3px;
+    font-size: 12px;
+    padding-left: 8px
+
 }
 .password {
-    margin: 24px 0px 0px;
-    padding: 10px;
-    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    height: 36px;
+    padding-block: 1px;
+    padding-inline: 2px;
+    border: none;
+    border: 1px solid rgb(150, 148, 148);
+    margin: auto;
+    margin-top: 10px;
+    max-width: 300px;
+    width: 300px;
+    border-radius: 3px;
+    font-size: 12px;
+    padding-left: 8px;
 }
 
+.Button {
+    background-color: rgb( 0, 149, 246);
+    border: none;
+    width: 300px;
+    height: 36px;
+    margin: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Button:hover {
+    background-color: rgb(14, 99, 211);
+}
+
+.legend{
+    background-size: 176px 264px;
+    float: right;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    width: 174;
+    height: 50px;
+    background-position: 0px 0px;
+    padding: 10px 0px;
+}
+
+.apps {
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.Line {
+    margin: auto;
+    font-size: small;
+}   
+.lines {
+    display: flex;
+    flex-direction: row;
+}
+
+.facebooklogin {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: var(--blue);
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.facebooklogin:hover {
+    text-decoration: underline;
+}
+.icon {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    float: left;
+    
+}
+
+.forgotPassword {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.forgotPassword:hover {
+    text-decoration: underline;
+}
+
+.signupbutton {
+    margin: auto;
+    margin-left: 0px;
+    color: var(--blue);
+    cursor: pointer;
+}
+.signupbutton:hover {
+    text-decoration: underline;
+}
+
+.signup {
+    display: flex;
+    border: none;
+    padding: 20px;
+    border: 1px solid rgb(161, 155, 155);
+    max-width: 360px;
+    width: 360px;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 1px;
+}
+
+.noaccount {
+    margin: auto;
+    margin-right: 5px;
+    
+}
+
+.gettheapp {
+    margin: auto;
+    margin-right: 160px;
+    margin-top: 30px;
+}
